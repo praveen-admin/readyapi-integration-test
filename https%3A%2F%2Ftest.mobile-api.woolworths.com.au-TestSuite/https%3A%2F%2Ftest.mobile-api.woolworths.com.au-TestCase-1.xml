@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="5659d401-e764-46df-b206-a7f9de925f0c" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="https://test.mobile-api.woolworths.com.au TestCase 1" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="5659d401-e764-46df-b206-a7f9de925f0cfileName">https%3A%2F%2Ftest.mobile-api.woolworths.com.au-TestCase-1</con:setting>
+  </con:settings>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:testStep type="restrequest" name="Request 1" id="262aa996-a0f8-4663-b0ed-8e7662a08649">
+    <con:settings/>
+    <con:config service="https://test.mobile-api.woolworths.com.au" resourcePath="/scan/go/kiosk/scanner/verify/cart" methodName="Cart" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Request 1" id="a9e3a9b8-da94-4420-8313-44b672440f61" mediaType="application/json" postQueryString="false">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://test.mobile-api.woolworths.com.au</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://test.mobile-api.woolworths.com.au/scan/go/kiosk/scanner/verify/cart</con:originalUri>
+        <con:assertion type="Valid HTTP Status Codes" id="d56bbb2e-8f63-42bc-9f46-52a6ff243605" name="Valid HTTP Status Codes">
+          <con:settings/>
+          <con:configuration>
+            <codes>200</codes>
+          </con:configuration>
+        </con:assertion>
+        <con:assertion type="Response SLA Assertion" id="2b2f785b-4c00-4329-9721-ab177394c136" name="Response SLA">
+          <con:configuration>
+            <SLA>200</SLA>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:jmsPropertyConfig/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>

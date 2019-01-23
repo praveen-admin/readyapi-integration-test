@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" id="2c4d6448-0260-420f-a326-608b12938d71" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://test.mobile-api.woolworths.com.au" type="rest" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="2c4d6448-0260-420f-a326-608b12938d71fileName">https%3A%2F%2Ftest.mobile-api.woolworths.com.au</con:setting>
+  </con:settings>
+  <con:definitionCache type="TEXT" rootPart=""/>
+  <con:endpoints>
+    <con:endpoint>https://test.mobile-api.woolworths.com.au</con:endpoint>
+  </con:endpoints>
+</con:interface>
