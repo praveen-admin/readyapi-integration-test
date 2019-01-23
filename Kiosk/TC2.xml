@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:testCase id="5659d401-e764-46df-b206-a7f9de925f0c" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="https://test.mobile-api.woolworths.com.au TestCase 1" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+<con:testCase id="cbe74c8b-824e-4ddb-969a-3198c8e5df74" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TC2" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="5659d401-e764-46df-b206-a7f9de925f0cfileName">https%3A%2F%2Ftest.mobile-api.woolworths.com.au-TestCase-1</con:setting>
+    <con:setting id="cbe74c8b-824e-4ddb-969a-3198c8e5df74fileName">TC2</con:setting>
   </con:settings>
   <con:savedRecentRuns>1</con:savedRecentRuns>
-  <con:testStep type="restrequest" name="Request 1" id="262aa996-a0f8-4663-b0ed-8e7662a08649">
+  <con:testStep type="restrequest" name="Request 1" id="79087a41-f232-4aa2-927a-08aa12145bd7">
     <con:settings/>
     <con:config service="https://test.mobile-api.woolworths.com.au" resourcePath="/scan/go/kiosk/scanner/verify/cart" methodName="Cart" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <con:restRequest name="Request 1" id="a9e3a9b8-da94-4420-8313-44b672440f61" mediaType="application/json" postQueryString="false">
