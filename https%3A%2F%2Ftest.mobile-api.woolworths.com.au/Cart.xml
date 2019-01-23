@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="Cart" path="/scan/go/kiosk/scanner/verify/cart" id="b4c2a6dd-ef88-4e27-aeff-3a625b6843d9" xmlns:con="http://eviware.com/soapui/config">
+<con:resource name="Cart" path="/scan/go/kiosk/scanner/verify/cart" id="b4c2a6dd-ef88-4e27-aeff-3a625b6843d9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="b4c2a6dd-ef88-4e27-aeff-3a625b6843d9fileName">Cart</con:setting>
   </con:settings>
@@ -20,6 +20,10 @@
     <con:request name="Request 1" id="a9e3a9b8-da94-4420-8313-44b672440f61" mediaType="application/json">
       <con:settings/>
       <con:endpoint>https://test.mobile-api.woolworths.com.au</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>
